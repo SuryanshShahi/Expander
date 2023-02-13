@@ -1,57 +1,93 @@
--- import: suryanshshahi.github.io/expander/assets
+
+-- ftd.column:
+padding.px: 50
+background.solid: #eee
+width: fill-container
+align-content: top-center
+spacing.fixed.px: 20
+
+-- ftd.text: FTD Accordion
+style : bold
+padding-bottom.px: 10
 
 
 
--- ds.page: Welcome to your [FASTN site](https://fastn.dev/)
+-- ftd.row:
+padding-bottom.px: 30
+-- ftd.column:
+margin-right.px: 20
+-- ftd.image:
+width: fill-container
+src: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg
+padding-bottom.px: 10
+-- end:ftd.column
 
-FASTN Blank Package Template Repo
+-- ftd.column:
+margin-left.px: 20
+-- ftd.image:
+width: fill-container
+src: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg
+padding-bottom.px: 10
+-- end:ftd.column
 
-🧑‍🚀 **Seasoned traveler?** update this file. Enjoy!
-
-
---- ds.image: doc-site
-src: $assets.files.doc-site-example.png
-width: fill
-
-
---- ds.h1: 🚀 Project Structure
-
-Inside of your FASTN project, you'll see the following folders and files:
-
-
---- ds.code:
-lang:
-
-/
-├── .build/
-│   └── index.html
-├── .packages/
-│   └── fifthtry.github.io/
-│   	└── All downloaded dependencies
-│   	
-├── FASTN.ftd
-├── index.ftd
-└── README.md
+-- end:ftd.row
 
 
 
---- ds.h1: 🧞 Commands
+-- box: What is FTD?
+-- box.body: This is FTD
 
-All commands are run from the root of the project, from a terminal:
+-- box: Lorem Ipsum
+-- box.body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo lacus eu sodales ullamcorper. Donec eget metus viverra, lobortis arcu at, sagittis elit. Aenean sit amet ante non eros tristique pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet lorem eget metus pharetra lobortis. Phasellus pharetra odio in egestas placerat. Vestibulum et ligula eget odio feugiat cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed a lobortis odio. Etiam feugiat eget risus in tempor. Etiam feugiat suscipit lectus tincidunt lacinia.
 
---- ds.code:
-lang:
+-- box: Pellentesque congue
+-- box.body: Pellentesque congue, sem vel ultrices sagittis, mi odio interdum velit, sit amet rhoncus massa lorem quis enim. Vivamus ex neque, aliquam vel augue ut, semper blandit nibh. Donec porta eu nisl vel bibendum. Quisque ac augue odio. Praesent nec sagittis augue. Proin fermentum suscipit commodo. Aliquam nec lectus diam.
 
-=======================================================================
-| Command                | Action                                     |
-| :--------------------- | :----------------------------------------- |
-| fastn build              | FASTN builder installs all `FASTN` dependencies|
-| fastn serve              | Starts local dev server at available port  |
-|                        | `localhost:8000`                           |
-=======================================================================
+-- end: ftd.column
 
 
---- ds.h1: 👀 Want to learn more?
 
-Feel free to check [our documentation](https://fastn.dev/) or jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
 
+-- component box: 
+caption title: Default Header
+body body: Default Body
+boolean $open: true
+
+-- ftd.column:
+border-width.px: 2
+border-radius.px: 8
+spacing.fixed.px: 10
+width: fill-container
+
+-- ftd.row: 
+width: fill-container
+spacing: space-between
+border-bottom-width.px: 1
+padding.px: 10
+$on-click$: $toggle($value=$box.open)
+-- ftd.text: $box.title
+
+-- ftd.text: X
+color:red
+if: {box.open}
+
+-- ftd.text: O
+color:green
+if: {!box.open}
+-- end: ftd.row
+
+-- ftd.text: $box.body
+padding.px: 10
+height: hug-content
+if: {box.open}
+
+-- end: ftd.column
+
+-- end: box
+
+
+
+-- void toggle(value):
+boolean $value:
+
+value = !value
