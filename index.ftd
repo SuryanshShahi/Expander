@@ -23,6 +23,28 @@ padding-bottom.px: 10
 -- end: ftd.column
 
 
+-- ftd.row:
+padding-bottom.px: 30
+-- ftd.column:
+margin-right.px: 20
+-- ftd.image:
+width: fill-container
+src: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg
+padding-bottom.px: 10
+-- end:ftd.column
+
+-- ftd.column:
+margin-left.px: 20
+-- ftd.image:
+width: fill-container
+src: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg
+padding-bottom.px: 10
+-- end:ftd.column
+
+-- end:ftd.row
+
+
+
 -- component box: 
 caption title: Default Header
 body body: Default Body
