@@ -5,22 +5,8 @@ width: fill-container
 align-content: top-center
 spacing.fixed.px: 20
 
--- ftd.text: testing
 -- ftd.text: FTD Accordion
 padding-bottom.px: 10
-
-
-
--- box: What is FTD?
--- box.body: This is FTD
-
--- box: Lorem Ipsum
--- box.body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo lacus eu sodales ullamcorper. Donec eget metus viverra, lobortis arcu at, sagittis elit. Aenean sit amet ante non eros tristique pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet lorem eget metus pharetra lobortis. Phasellus pharetra odio in egestas placerat. Vestibulum et ligula eget odio feugiat cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed a lobortis odio. Etiam feugiat eget risus in tempor. Etiam feugiat suscipit lectus tincidunt lacinia.
-
--- box: Pellentesque congue
--- box.body: Pellentesque congue, sem vel ultrices sagittis, mi odio interdum velit, sit amet rhoncus massa lorem quis enim. Vivamus ex neque, aliquam vel augue ut, semper blandit nibh. Donec porta eu nisl vel bibendum. Quisque ac augue odio. Praesent nec sagittis augue. Proin fermentum suscipit commodo. Aliquam nec lectus diam.
-
--- end: ftd.column
 
 
 -- ftd.row:
@@ -43,6 +29,18 @@ padding-bottom.px: 10
 
 -- end:ftd.row
 
+
+
+-- box: What is FTD?
+-- box.body: This is FTD
+
+-- box: Lorem Ipsum
+-- box.body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur commodo lacus eu sodales ullamcorper. Donec eget metus viverra, lobortis arcu at, sagittis elit. Aenean sit amet ante non eros tristique pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc laoreet lorem eget metus pharetra lobortis. Phasellus pharetra odio in egestas placerat. Vestibulum et ligula eget odio feugiat cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed a lobortis odio. Etiam feugiat eget risus in tempor. Etiam feugiat suscipit lectus tincidunt lacinia.
+
+-- box: Pellentesque congue
+-- box.body: Pellentesque congue, sem vel ultrices sagittis, mi odio interdum velit, sit amet rhoncus massa lorem quis enim. Vivamus ex neque, aliquam vel augue ut, semper blandit nibh. Donec porta eu nisl vel bibendum. Quisque ac augue odio. Praesent nec sagittis augue. Proin fermentum suscipit commodo. Aliquam nec lectus diam.
+
+-- end: ftd.column
 
 
 -- component box: 
