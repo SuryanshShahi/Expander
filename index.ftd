@@ -6,7 +6,6 @@ align-content: top-center
 spacing.fixed.px: 20
 
 -- ftd.text: FTD Accordion
-style : bold
 padding-bottom.px: 10
 
 
