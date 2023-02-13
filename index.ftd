@@ -5,6 +5,7 @@ width: fill-container
 align-content: top-center
 spacing.fixed.px: 20
 
+-- ftd.text: testing
 -- ftd.text: FTD Accordion
 padding-bottom.px: 10
 
@@ -20,8 +21,6 @@ padding-bottom.px: 10
 -- box.body: Pellentesque congue, sem vel ultrices sagittis, mi odio interdum velit, sit amet rhoncus massa lorem quis enim. Vivamus ex neque, aliquam vel augue ut, semper blandit nibh. Donec porta eu nisl vel bibendum. Quisque ac augue odio. Praesent nec sagittis augue. Proin fermentum suscipit commodo. Aliquam nec lectus diam.
 
 -- end: ftd.column
-
-
 
 
 -- component box: 
